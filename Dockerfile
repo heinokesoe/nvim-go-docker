@@ -21,3 +21,4 @@ RUN curl https://raw.githubusercontent.com/heinokesoe/nvim-go-docker/main/bashrc
 && git clone https://github.com/jiangmiao/auto-pairs \
 && git clone https://github.com/luochen1990/rainbow \
 && git clone https://github.com/morhetz/gruvbox
+WORKDIR /root/go
