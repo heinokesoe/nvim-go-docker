@@ -5,7 +5,6 @@ call plug#begin()
 Plug 'fatih/vim-go'
 Plug 'preservim/nerdtree'
 Plug 'ctrlpvim/ctrlp.vim'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'jiangmiao/auto-pairs'
 Plug 'luochen1990/rainbow'
 Plug 'morhetz/gruvbox'
@@ -18,7 +17,6 @@ colorscheme gruvbox
 filetype plugin indent on
 syntax on
 
-set colorcolumn=80
 set background=dark
 set number
 set nowrap
