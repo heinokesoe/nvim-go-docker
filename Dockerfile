@@ -3,7 +3,7 @@ RUN apt update \
 && apt upgrade -y \
 && apt install -y apt-utils \
 && apt install -y curl man wget nodejs neovim gcc git
-RUN wget https://golang.org/dl/go1.15.6.linux-amd64.tar.gz \
+RUN wget https://golang.org/dl/go1.16.3.linux-amd64.tar.gz \
 && tar -C /usr/local -xzf go1.15.6.linux-amd64.tar.gz \
 && rm go1.15.6.linux-amd64.tar.gz
 RUN curl https://raw.githubusercontent.com/heinokesoe/nvim-go-docker/main/bashrc >> ~/.bashrc \
