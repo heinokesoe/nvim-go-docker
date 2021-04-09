@@ -2,7 +2,7 @@ FROM kalilinux/kali-rolling
 RUN apt update \
 && apt upgrade -y \
 && apt install -y apt-utils \
-&& apt install -y curl man wget nodejs neovim gcc git
+&& apt install -y curl man wget neovim gcc git
 RUN wget https://golang.org/dl/go1.16.3.linux-amd64.tar.gz \
 && tar -C /usr/local -xzf go1.16.3.linux-amd64.tar.gz \
 && rm go1.16.3.linux-amd64.tar.gz
